@@ -1,7 +1,7 @@
 # SCARD
 
 Preparation:
-1. Unzip files and folders: xz -d GRCh38_full_analysis_set_plus_decoy_hla.fa.xz
+1. Unzip files and folders: xz -d GRCh38_full_analysis_set_plus_decoy_hla.fa.xz 
 2. CRAM file and index file (i.e sample.cram stored in $dir = $PATH_TO_WORKING_DIRECTORY) #recommended to work in a dir named after your sample
 3. mkdir -r $PATH_TO_WORKING_DIRECTORY/ID/SCARD
 4. bin folder in $PATH_TO_WORKING_DIRECTORY/bin/
