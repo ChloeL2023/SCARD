@@ -2,11 +2,11 @@
 
 Preparation:
 1. Unzip files and folders:
-  xz -d GRCh38_full_analysis_set_plus_decoy_hla.fa.xz
-  xz -d GRCh38_reference_genome.tar.xz
-  tar -xvf GRCh38_reference_genome.tar
-  xz -d chr.tar.xz
-  tar -xvf chr.tar
+  xz -d GRCh38_full_analysis_set_plus_decoy_hla.fa.xz;
+  xz -d GRCh38_reference_genome.tar.xz;
+  tar -xvf GRCh38_reference_genome.tar;
+  xz -d chr.tar.xz;
+  tar -xvf chr.tar;
 3. CRAM file and index file (i.e sample.cram stored in $dir = $PATH_TO_WORKING_DIRECTORY) #recommended to work in a dir named after your sample
 4. mkdir -r $PATH_TO_WORKING_DIRECTORY/ID/SCARD
 5. bin folder in $PATH_TO_WORKING_DIRECTORY/bin/
