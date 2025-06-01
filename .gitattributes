@@ -1,0 +1,2 @@
+GRCh38_reference_genome filter=lfs diff=lfs merge=lfs -text
+chr filter=lfs diff=lfs merge=lfs -text
